@@ -53,7 +53,7 @@ module.exports = function(opts) {
             console.log('   Title: ' + itm.errorTitle);
             console.log('   Xpath: ' + itm.xpath);
             if (snippet) {
-              console.log('   Snippit:');
+              console.log('   Snippet:');
               console.log(chalk.gray(itm.errorSnippet.replace(/&lt;/g, '<').replace(/&gt;/g, '>')));
             }
           });
